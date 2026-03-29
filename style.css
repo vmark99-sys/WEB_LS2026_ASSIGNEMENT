@@ -2,20 +2,19 @@ body{
     background-color: #c7e3e6;
     margin: 0;
 }
-h1{
-    color: blueviolet;
-}
-p {
-    color: red;
-}
 
 header{
-
-    background: #4f7478;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    width: 100%;
 }
 
-.menu {
+.quick_bar{
+    width: 100%;
+    background-color: #6a8f93;
+    padding: 8px 20px;
+    box-sizing: border-box;
+}
+
+.QuickContact {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -23,14 +22,31 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 30px;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+
+    background: #4f7478;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.menu {
+    list-style: none;
+    margin: 0 auto;
+    padding: 10px 20px;
+    max-width: 1000px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 40px;
 }
 
-nav {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 10px 20px;
-}
 
 .menu a {
     text-decoration: none;
@@ -42,14 +58,7 @@ nav {
     align-items: center;
     gap: 8px;
 
-    position: relative;
     transition: 0.3s;
-}
-
-.nav_logo {
-    width: 48px;
-    height: 48px;
-    object-fit: contain;
 }
 
 .menu a:hover {
@@ -60,13 +69,16 @@ nav {
 .menu a.active {
     color: #38bdf8;
 }
-.QuickContact {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    gap: 30px;
 
+.nav_logo {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
+
+h1{
+    color: blueviolet;
+}
+p {
+    color: red;
 }
