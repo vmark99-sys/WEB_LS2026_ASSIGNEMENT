@@ -33,7 +33,7 @@
 
 <h2>Contact us about German Shepherd training</h2>
 
-<form id="trainingForm" action="#" method="post">
+<form id="trainingForm" name="trainingForm" action="#" onsubmit="return validateForm()" method="post">
     <label for="fname">First name:</label><br>
     <input type="text" id="fname" name="fname" placeholder="Your first name"><br>
 
@@ -74,14 +74,14 @@
     <label for="message">Message:</label><br>
     <textarea id="message" name="message" rows="5" cols="30" placeholder="Tell us about your German Shepherd, age, experience and training goals..."></textarea><br><br>
 
-
-    <p id="formMessage"></p>
     <input type="submit" value="Send message">
+
+    <p>If you send this form, we will contact you about German Shepherd training options.</p>
 </form>
 
-<p>If you send this form, we will contact you about German Shepherd training options.</p>
 
 
 
+<script src="script.js"></script>
 </body>
 </html>
