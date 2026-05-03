@@ -375,6 +375,10 @@ form + p {
     border-bottom: none;
 }
 
+.table-container {
+    overflow-x: auto;
+}
+
 
 
 
