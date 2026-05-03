@@ -329,6 +329,13 @@ form + p {
     background-color: #f7f3ea;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+
 }
 
 .dogs-section h2 {
@@ -340,6 +347,7 @@ form + p {
 
 #dogsTable {
     width: 100%;
+    min-width: 850px;
     border-collapse: collapse;
     background-color: white;
     overflow: hidden;
@@ -422,5 +430,30 @@ form + p {
     textarea,
     select {
         font-size: 16px;
+    }
+  /*about*/
+    .dogs-section {
+        width: 94%;
+        padding: 15px;
+        margin: 35px auto;
+    }
+
+    .dogs-section h2 {
+        font-size: 28px;
+    }
+
+    .table-container {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    #dogsTable {
+        min-width: 850px;
+    }
+
+    #dogsTable th,
+    #dogsTable td {
+        padding: 10px 8px;
+        font-size: 14px;
     }
 }
