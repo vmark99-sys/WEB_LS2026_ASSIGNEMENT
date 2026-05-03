@@ -122,6 +122,11 @@ img {
     border-top: 6px solid var(--primary);
 }
 
+.container h2 {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
 /* Hide the images by default */
 .mySlides {
     display: none;
@@ -447,7 +452,8 @@ form + p {
     }
 
     .dogs-section h2 {
-        font-size: 28px;
+        margin-top: 5px;
+        font-size: 25px;
     }
 
 
