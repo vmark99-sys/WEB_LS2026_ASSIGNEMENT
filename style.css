@@ -318,8 +318,68 @@ form + p {
     margin: -25px 15px 40px 15px;
 }
 
+/*About*/
+/* Dogs JSON Table */
 
-/*MOBIL***/
+.dogs-section {
+    width: 90%;
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 25px;
+    background-color: #f7f3ea;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.dogs-section h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2b2b2b;
+    font-size: 32px;
+}
+
+#dogsTable {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#dogsTable th {
+    background-color: #2b2b2b;
+    color: #f7f3ea;
+    padding: 14px 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#dogsTable td {
+    padding: 12px 10px;
+    text-align: center;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+}
+
+#dogsTable tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+#dogsTable tr:hover {
+    background-color: #e8dcc8;
+    transition: 0.2s;
+}
+
+#dogsTable tr:last-child td {
+    border-bottom: none;
+}
+
+
+
+
+
+/*MOBIL*/
 @media (max-width: 600px) {
     .QuickContact {
         flex-direction: column;
