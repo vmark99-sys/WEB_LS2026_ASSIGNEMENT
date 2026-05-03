@@ -1,0 +1,347 @@
+{
+  "kennel": {
+    "name": "GSD Training Club",
+    "location": {
+      "country": "Slovakia",
+      "city": "Bratislava"
+    },
+    "dogs": [
+      {
+        "name": "Rex",
+        "breed": "German Shepherd",
+        "age": 2,
+        "coat": {
+          "color": "Grey sable",
+          "length": "Medium"
+        },
+        "training": {
+          "level": "Beginner",
+          "exam": {
+            "name": "SVV1",
+            "status": "In preparation"
+          }
+        }
+      },
+      {
+        "name": "Beky",
+        "breed": "German Shepherd",
+        "age": 2,
+        "coat": {
+          "color": "Wolf grey",
+          "length": "Short"
+        },
+        "training": {
+          "level": "Advanced",
+          "exam": {
+            "name": "SVV2",
+            "status": "Passed"
+          }
+        }
+      },
+      {
+        "name": "Asta",
+        "breed": "German Shepherd",
+        "age": 4,
+        "coat": {
+          "color": "Black and tan",
+          "length": "Short"
+        },
+        "training": {
+          "level": "Advanced",
+          "exam": {
+            "name": "BH-VT",
+            "status": "Passed"
+          }
+        }
+      },
+      {
+        "name": "Bruno",
+        "breed": "German Shepherd",
+        "age": 3,
+        "coat": {
+          "color": "Dark sable",
+          "length": "Medium"
+        },
+        "training": {
+          "level": "Intermediate",
+          "exam": {
+            "name": "IGP1",
+            "status": "Planned"
+          }
+        }
+      },
+      {
+        "name": "Luna",
+        "breed": "German Shepherd",
+        "age": 1,
+        "coat": {
+          "color": "Black",
+          "length": "Short"
+        },
+        "training": {
+          "level": "Puppy class",
+          "exam": {
+            "name": "None",
+            "status": "Not started"
+          }
+        }
+      },
+      {
+        "name": "Max",
+        "breed": "German Shepherd",
+        "age": 5,
+        "coat": {
+          "color": "Black and red",
+          "length": "Medium"
+        },
+        "training": {
+          "level": "Advanced",
+          "exam": {
+            "name": "IGP2",
+            "status": "Passed"
+          }
+        }
+      },
+      {
+        "name": "Nora",
+        "breed": "German Shepherd",
+        "age": 2,
+        "coat": {
+          "color": "Sable",
+          "length": "Medium"
+        },
+        "training": {
+          "level": "Intermediate",
+          "exam": {
+            "name": "SVV1",
+            "status": "Planned"
+          }
+        }
+      },
+      {
+        "name": "Duke",
+        "breed": "German Shepherd",
+        "age": 6,
+        "coat": {
+          "color": "Black and tan",
+          "length": "Long"
+        },
+        "training": {
+          "level": "Expert",
+          "exam": {
+            "name": "IGP3",
+            "status": "Passed"
+          }
+        }
+      },
+      {
+        "name": "Bella",
+        "breed": "German Shepherd",
+        "age": 3,
+        "coat": {
+          "color": "Grey sable",
+          "length": "Medium"
+        },
+        "training": {
+          "level": "Intermediate",
+          "exam": {
+            "name": "BH-VT",
+            "status": "Passed"
+          }
+        }
+      },
+      {
+        "name": "Aron",
+        "breed": "German Shepherd",
+        "age": 4,
+        "coat": {
+          "color": "Dark sable",
+          "length": "Short"
+        },
+        "training": {
+          "level": "Advanced",
+          "exam": {
+            "name": "SVV2",
+            "status": "In preparation"
+          }
+        }
+      },
+      {
+        "name": "Kira",
+        "breed": "German Shepherd",
+        "age": 2,
+        "coat": {
+          "color": "Black and silver",
+          "length": "Medium"
+        },
+        "training": {
+          "level": "Beginner",
+          "exam": {
+            "name": "BH-VT",
+            "status": "In preparation"
+          }
+        }
+      },
+      {
+        "name": "Thor",
+        "breed": "German Shepherd",
+        "age": 5,
+        "coat": {
+          "color": "Black",
+          "length": "Long"
+        },
+        "training": {
+          "level": "Expert",
+          "exam": {
+            "name": "SVV3",
+            "status": "Passed"
+          }
+        }
+      },
+      {
+        "name": "Mia",
+        "breed": "German Shepherd",
+        "age": 1,
+        "coat": {
+          "color": "Black and tan",
+          "length": "Short"
+        },
+        "training": {
+          "level": "Puppy class",
+          "exam": {
+            "name": "None",
+            "status": "Not started"
+          }
+        }
+      },
+      {
+        "name": "Rocky",
+        "breed": "German Shepherd",
+        "age": 3,
+        "coat": {
+          "color": "Sable",
+          "length": "Medium"
+        },
+        "training": {
+          "level": "Intermediate",
+          "exam": {
+            "name": "IGP1",
+            "status": "In preparation"
+          }
+        }
+      },
+      {
+        "name": "Sara",
+        "breed": "German Shepherd",
+        "age": 4,
+        "coat": {
+          "color": "Grey sable",
+          "length": "Long"
+        },
+        "training": {
+          "level": "Advanced",
+          "exam": {
+            "name": "SVV2",
+            "status": "Planned"
+          }
+        }
+      },
+      {
+        "name": "Bax",
+        "breed": "German Shepherd",
+        "age": 2,
+        "coat": {
+          "color": "Black and red",
+          "length": "Medium"
+        },
+        "training": {
+          "level": "Beginner",
+          "exam": {
+            "name": "SVV1",
+            "status": "In preparation"
+          }
+        }
+      },
+      {
+        "name": "Elza",
+        "breed": "German Shepherd",
+        "age": 6,
+        "coat": {
+          "color": "Dark sable",
+          "length": "Medium"
+        },
+        "training": {
+          "level": "Expert",
+          "exam": {
+            "name": "IGP3",
+            "status": "Passed"
+          }
+        }
+      },
+      {
+        "name": "Odin",
+        "breed": "German Shepherd",
+        "age": 3,
+        "coat": {
+          "color": "Black and tan",
+          "length": "Medium"
+        },
+        "training": {
+          "level": "Intermediate",
+          "exam": {
+            "name": "SVV1",
+            "status": "Passed"
+          }
+        }
+      },
+      {
+        "name": "Tara",
+        "breed": "German Shepherd",
+        "age": 5,
+        "coat": {
+          "color": "Black",
+          "length": "Short"
+        },
+        "training": {
+          "level": "Advanced",
+          "exam": {
+            "name": "IGP2",
+            "status": "In preparation"
+          }
+        }
+      },
+      {
+        "name": "Hugo",
+        "breed": "German Shepherd",
+        "age": 1,
+        "coat": {
+          "color": "Sable",
+          "length": "Medium"
+        },
+        "training": {
+          "level": "Puppy class",
+          "exam": {
+            "name": "BH-VT",
+            "status": "Planned"
+          }
+        }
+      },
+      {
+        "name": "Zara",
+        "breed": "German Shepherd",
+        "age": 4,
+        "coat": {
+          "color": "Black and silver",
+          "length": "Long"
+        },
+        "training": {
+          "level": "Advanced",
+          "exam": {
+            "name": "SVV2",
+            "status": "Passed"
+          }
+        }
+      }
+    ]
+  }
+}
