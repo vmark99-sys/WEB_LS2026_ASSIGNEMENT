@@ -1,6 +1,27 @@
+/*biding farieb na text*/
+:root {
+    --bg-main: #c7e3e6;
+    --bg-card: #edf4f5;
+    --bg-white: #ffffff;
+
+    --primary-dark: #2f4f52;
+    --primary: #4f7478;
+    --primary-light: #6a8f93;
+    --primary-hover: #3d5f63;
+
+    --text-main: #243b3d;
+    --text-soft: #e6f0f2;
+
+    --border-soft: #9fb9bc;
+    --shadow-soft: rgba(47, 79, 82, 0.25);
+}
+
+
 body{
-    background-color: #c7e3e6;
+    background-color: var(--bg-main);
     margin: 0;
+    color: var(--text-main);
+    font-family: Arial, sans-serif;
 }
 
 header{
@@ -9,7 +30,7 @@ header{
 
 .quick_bar{
     width: 100%;
-    background-color: #6a8f93;
+    background-color: var(--primary-light);
     padding: 8px 20px;
     box-sizing: border-box;
 }
@@ -30,8 +51,7 @@ header{
     top: 0;
     z-index: 1000;
     width: 100%;
-
-    background: #4f7478;
+    background: var(--primary);
     box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
@@ -50,14 +70,12 @@ header{
 
 .menu a {
     text-decoration: none;
-    color: #e6f0f2;
+    color: var(--text-soft);
     font-size: 18px;
     font-weight: 500;
-
     display: flex;
     align-items: center;
     gap: 8px;
-
     transition: 0.3s;
 }
 
@@ -67,7 +85,8 @@ header{
 }
 
 .menu a.active {
-    color: #38bdf8;
+    color: white;
+    font-weight: 700;
 }
 
 .nav_logo {
@@ -78,9 +97,6 @@ header{
 
 h1{
     color: blueviolet;
-}
-p {
-    color: #333;
 }
 
 
@@ -99,9 +115,11 @@ img {
     position: relative;
     max-width: 900px;
     margin: 40px auto;
-    background-color: white;
+    background-color: var(--bg-card);
     padding: 12px;
     box-shadow: 0 3px 10px rgba(0,0,0,0.25);
+    border-radius: 12px;
+    border-top: 6px solid var(--primary);
 }
 
 /* Hide the images by default */
@@ -113,7 +131,7 @@ img {
     width: 100%;
     height: 500px;
     object-fit: contain;
-    background-color: #4f7478;
+    background-color: var(--primary);
 }
 
 /* Add a pointer when hovering over the thumbnail images */
@@ -167,22 +185,15 @@ img {
 /* Container for image text */
 .caption-container {
     text-align: center;
-    background-color: #4f7478;
+    background-color: var(--primary);
     padding: 12px;
-}
-
-#caption {
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    margin: 0;
 }
 
 .row {
     display: flex;
     gap: 8px;
     padding: 10px;
-    background-color: #4f7478;
+    background-color: var(--primary);
 }
 
 
@@ -208,6 +219,7 @@ img {
 #caption {
     color: white;
     font-size: 20px;
+    font-weight: bold;
     margin: 0;
 }
 
@@ -218,7 +230,7 @@ img {
 
 h2 {
     text-align: center;
-    color: #2f4f52;
+    color: var(--primary-dark);
     font-size: 30px;
     margin: 40px 0 25px 0;
 }
@@ -228,7 +240,7 @@ h2::after {
     display: block;
     width: 80px;
     height: 4px;
-    background-color: #6a8f93;
+    background-color: var(--primary-light);
     margin: 12px auto 0 auto;
     border-radius: 10px;
 }
@@ -237,14 +249,14 @@ form {
     max-width: 650px;
     margin: 30px auto 50px auto;
     border-radius: 12px;
-    background-color: #edf4f5;
+    background-color: var(--bg-card);
     padding: 28px;
-    box-shadow: 0 5px 15px rgba(47, 79, 82, 0.25);
-    border-top: 6px solid #4f7478;
+    box-shadow: 0 5px 15px var(--shadow-soft);
+    border-top: 6px solid var(--primary);
 }
 
 form label {
-    color: #243b3d;
+    color: var(--text-main);
     font-weight: 600;
 }
 
@@ -263,11 +275,11 @@ select {
     padding: 12px;
     margin: 8px 0 18px 0;
     display: block;
-    border: 1px solid #9fb9bc;
+    border: 1px solid var(--border-soft);
     border-radius: 6px;
     box-sizing: border-box;
-    background-color: #ffffff;
-    color: #243b3d;
+    background-color: var(--bg-white);
+    color: var(--text-main);
     font-family: inherit;
 }
 
@@ -275,7 +287,7 @@ input[type=text]:focus,
 input[type=email]:focus,
 textarea:focus {
     outline: none;
-    border-color: #4f7478;
+    border-color: var(--primary);
     box-shadow: 0 0 6px rgba(79, 116, 120, 0.45);
 }
 
@@ -286,12 +298,12 @@ textarea {
 input[type=radio],
 input[type=checkbox] {
     margin-right: 8px;
-    accent-color: #4f7478;
+    accent-color: var(--primary);
 }
 
 input[type=submit] {
     width: 100%;
-    background-color: #4f7478;
+    background-color: var(--primary);
     color: white;
     padding: 14px;
     margin-top: 22px;
@@ -303,18 +315,18 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #3d5f63;
+    background-color: var(--primary-hover);
 }
 
 form + p {
     text-align: center;
-    color: #2f4f52;
+    color: var(--primary-dark);
     margin-bottom: 40px;
 }
 
 .form-note {
     text-align: center;
-    color: #2f4f52;
+    color: var(--primary-dark);
     margin: -25px 15px 40px 15px;
 }
 
@@ -326,22 +338,24 @@ form + p {
     max-width: 1100px;
     margin: 50px auto;
     padding: 25px;
-    background-color: #f7f3ea;
+    background-color: var(--bg-card);
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 15px var(--shadow-soft);
     box-sizing: border-box;
+    border-top: 6px solid var(--primary);
 }
 
 .table-container {
     width: 100%;
     overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
 
 }
 
 .dogs-section h2 {
     text-align: center;
     margin-bottom: 25px;
-    color: #2b2b2b;
+    color: var(--primary-dark);
     font-size: 32px;
 }
 
@@ -349,14 +363,14 @@ form + p {
     width: 100%;
     min-width: 850px;
     border-collapse: collapse;
-    background-color: white;
+    background-color: var(--bg-white);
     overflow: hidden;
     border-radius: 10px;
 }
 
 #dogsTable th {
-    background-color: #2b2b2b;
-    color: #f7f3ea;
+    background-color: var(--primary);
+    color: white;
     padding: 14px 10px;
     font-size: 15px;
     text-transform: uppercase;
@@ -366,28 +380,22 @@ form + p {
 #dogsTable td {
     padding: 12px 10px;
     text-align: center;
-    color: #333;
-    border-bottom: 1px solid #ddd;
+    color: var(--text-main);
+    border-bottom: 1px solid var(--border-soft);
 }
 
 #dogsTable tr:nth-child(even) {
-    background-color: #f4f4f4;
+    background-color: #f3f8f9;
 }
 
 #dogsTable tr:hover {
-    background-color: #e8dcc8;
+    background-color: #d8ecef;
     transition: 0.2s;
 }
 
 #dogsTable tr:last-child td {
     border-bottom: none;
 }
-
-.table-container {
-    overflow-x: auto;
-}
-
-
 
 
 
@@ -442,10 +450,6 @@ form + p {
         font-size: 28px;
     }
 
-    .table-container {
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-    }
 
     #dogsTable {
         min-width: 850px;
