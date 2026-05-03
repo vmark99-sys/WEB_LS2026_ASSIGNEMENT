@@ -368,7 +368,7 @@ img {
     object-fit: cover;
 }
 
-.active,
+.demo.active,
 .demo:hover {
     opacity: 1;
     border: 2px solid white;
@@ -419,7 +419,7 @@ form label {
 }
 
 form p {
-    color: #243b3d;
+    color: var(--text-main);
     font-weight: 700;
     margin-top: 22px;
     margin-bottom: 10px;
@@ -578,21 +578,65 @@ form + p {
     box-sizing: border-box;
 }
 
+.news-page {
+    width: 100%;
+    padding: 50px 20px;
+}
+
 .news-detail-card {
     max-width: 900px;
     margin: 0 auto;
     background-color: var(--bg-card);
     padding: 35px;
     border-radius: 14px;
-    box-shadow: 0 4px 12px var(--shadow-soft);
-    box-sizing: border-box;
+    box-shadow: 0 5px 15px var(--shadow-soft);
+    border-top: 6px solid var(--primary);
 }
 
 .news-detail-card h1 {
     color: var(--primary-dark);
     margin-top: 5px;
-    margin-bottom: 25px;
-    font-size: 32px;
+    margin-bottom: 20px;
+    font-size: 34px;
+}
+
+.news-detail-card p {
+    line-height: 1.7;
+    font-size: 16px;
+    margin-bottom: 18px;
+    color: var(--text-main);
+}
+
+.news-detail-card .news-date {
+    color: var(--primary);
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.news-detail-image {
+    width: 100%;
+    max-height: 420px;
+    object-fit: cover;
+    object-position: center 65%;
+    display: block;
+    border-radius: 12px;
+    margin: 25px 0 30px 0;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: var(--primary);
+    color: var(--text-soft);
+    text-decoration: none;
+    padding: 11px 18px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.back-button:hover {
+    background-color: var(--primary-hover);
 }
 
 .news-detail-card p {
@@ -762,5 +806,40 @@ form + p {
 
     .news-detail-image {
         max-height: 260px;
+    }
+
+    /*gallery*/
+    .container {
+        margin: 30px 12px;
+        padding: 12px;
+    }
+
+    .mySlides img {
+        height: 320px;
+    }
+
+    .row {
+        gap: 6px;
+        padding: 8px;
+        overflow-x: auto;
+    }
+
+    .column {
+        min-width: 75px;
+        flex: 0 0 75px;
+    }
+
+    .demo {
+        height: 65px;
+    }
+
+    #caption {
+        font-size: 16px;
+    }
+
+    .prev,
+    .next {
+        padding: 11px;
+        font-size: 20px;
     }
 }
